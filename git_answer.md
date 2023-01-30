@@ -46,7 +46,6 @@ Commit：將暫存區的檔案提交到儲存庫儲存
 git commit -m "commit message"
 ```
 ### GitFlow 介紹
-<br />
 主要的分支有 master、develop、hotfix、release 以及 feature 這五種分支
 <br />
 
