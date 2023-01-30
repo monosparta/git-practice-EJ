@@ -38,7 +38,7 @@ git merge <branchname>
 ``` bash
 git branch -d <branchname>
 ```
----
+
 ### Commit 介紹及使用
 Commit：將暫存區的檔案提交到儲存庫儲存
 
@@ -60,6 +60,7 @@ git commit -m "commit message"
 <br />
 
 **Hotfix 分支**
+<br />
 當線上產品發生緊急問題的時候，會從 Master 分支開一個 Hotfix 分支出來進行修復，Hotfix 分支修復完成之後，會合併回 Master 分支，也同時會合併一份到 Develop 分支。
 <br />
 
