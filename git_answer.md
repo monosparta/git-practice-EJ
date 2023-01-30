@@ -47,13 +47,18 @@ git commit -m "commit message"
 ```
 ### GitFlow 介紹
 主要的分支有 master、develop、hotfix、release 以及 feature 這五種分支
+
 **Master 分支**
 主要是用來放穩定、隨時可上線的版本。
+
 **Develop 分支**
 這個分支主要是所有開發的基礎分支，當要新增功能的時候，所有的 Feature 分支都是從這個分支切出去的。
+
 **Hotfix 分支**
 當線上產品發生緊急問題的時候，會從 Master 分支開一個 Hotfix 分支出來進行修復，Hotfix 分支修復完成之後，會合併回 Master 分支，也同時會合併一份到 Develop 分支。
+
 **Release 分支**
 當認為 Develop 分支夠成熟了，就可以把 Develop 分支合併到 Release 分支，在這邊進行算是上線前的最後測試。
+
 **Feature 分支**
 當要開始新增功能的時候，就是使用 Feature 分支的時候了。
